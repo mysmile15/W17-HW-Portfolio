@@ -1,0 +1,203 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  background-color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+.section-container {
+  max-width: 1140px;
+  margin: 0px auto;
+}
+
+.row-space {
+  margin: 50px auto;
+}
+
+/**********************
+*FONT
+font-family: 'Lato', sans-serif;
+font-family: 'Patua One', cursive;
+**********************/
+
+.title {
+  color: #ffffff;
+  font-size: 350%;
+  font-family: 'Patua One', sans-serif;
+  display: block;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  position: center;
+}
+
+.title-2 {
+  color: #333;
+  font-size: 200%;
+  text-align: center;
+  font-family: 'Patua One', sans-serif;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #f1b945;
+  margin: auto 440px 50px 440px;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 300%;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+}
+
+/***********************
+*COLOR
+#f1b945
+#00b99a
+#0069d9
+************************/
+
+/***********************
+*HEADER
+************************/
+
+header {
+  background-image: linear-gradient(
+      to right,
+      rgba(250, 61, 187, 0.39),
+      rgba(21, 107, 177, 0.486)
+    ),
+    url(../img/header-1.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-text-box {
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+header p {
+  color: #fff;
+}
+
+/***********************
+*NAVIGATION
+************************/
+.logo {
+  height: 100px;
+  width: auto;
+  float: left;
+  margin-top: 25px;
+}
+
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 70px;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-right: 20px;
+  color: #fff;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding-bottom: 6px;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  padding-bottom: 6px;
+  border-bottom: 2px solid #f1b945;
+}
+
+/***********************
+*BUTTON
+************************/
+.btn:link,
+.btn:visited {
+  margin-top: -5px;
+  padding: 6px 15px;
+  text-decoration: none;
+  border-radius: 200px;
+  background-color: #00b99a;
+  border: 1px solid #00b99a;
+  font-size: 95%;
+  transition: background-color 0.5s, color 0.5s, border 0.5s;
+  color: #ffffff;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #f1b945;
+  color: #383838;
+  border: 1px solid #f1b945;
+}
+
+/***********************
+*PROJECTS
+************************/
+.projects {
+  margin-top: 60px;
+}
+
+/***********************
+*SKETCH
+************************/
+
+/***********************
+*FOOTER
+************************/
+.footer {
+  background-color: #333;
+  text-align: center;
+  padding-top: 30px;
+  height: 300px;
+}
+
+.footer-logo {
+  display: block;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.social-link {
+  list-style: none;
+  margin-top: 25px;
+}
+
+.social-link li {
+  display: inline-block;
+  margin: 0 10px;
+  color: #f1b945;
+}
+
+.social-link li a:link,
+.social-link li a:visited {
+  font-size: 150%;
+  display: inline-block;
+  padding: 0 10px;
+  color: #00b99a;
+  transition: color 0.5s;
+}
+
+.social-link li a:hover,
+.social-link li a:active {
+  color: #0069d9;
+}
