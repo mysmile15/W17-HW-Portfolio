@@ -4,13 +4,13 @@
 <head>
     <meta charset="utf-8" />
     <title>My Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
 
     <!-- My css & js-->
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css">
-    <script src="main.js"></script>
-
+    <link rel="stylesheet" href="css/queries.css" type="text/css" media="screen">
+    <script src="js/main.js"></script>
 
     <!-- font css -->
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,900|Patua+One" rel="stylesheet">
@@ -31,9 +31,13 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 
+
+
 </head>
 
 <body>
+
+    <!-- first Page -->
     <header>
         <nav>
             <div class="section-container">
@@ -64,7 +68,7 @@
 
 
     <!-- UIUX PROJECT -->
-    <section class="projects">
+    <section>
         <div class="section-container">
             <div class="title-2">
                 UI/UX Projects
@@ -91,11 +95,15 @@
                 </div>
                 <div class="col-sm col-md col-lg text-center">
                     <div class="card" style="width:100%;">
-                        <img class="card-img-top" src="img/giphy.gif" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                        <div class="card" style="width:100%">
+                            <img class="card-img-top" src="img/giphy.gif" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -121,24 +129,68 @@
                 </div>
                 <div class="col-sm col-md col-lg text-center">
                     <div class="card" style="width:100%;">
-                        <img class="card-img-top" src="img/giphy.gif" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                        <div class="card" style="width:100%">
+                            <img class="card-img-top" src="img/giphy.gif" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
                         </div>
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Brand and Print section -->
 
     <!-- digital Sketch -->
+
     <section class="sketch">
         <ul class="sketch-showcase">
             <li>
-                <figure>
-
+                <figure class="sketch-img">
+                    <img src="img/sketch/sketch-1.jpg" alt="sketch-1">
+                </figure>
+            </li>
+            <li>
+                <figure class="sketch-img">
+                    <img src="img/sketch/sketch-2.jpg" alt="sketch-2">
+                </figure>
+            </li>
+            <li>
+                <figure class="sketch-img">
+                    <img src="img/sketch/sketch-3.jpg" alt="sketch-3">
+                </figure>
+            </li>
+            <li>
+                <figure class="sketch-img">
+                    <img src="img/sketch/sketch-4.jpg" alt="sketch-4">
+                </figure>
+            </li>
+        </ul>
+        <!-- 2nd row -->
+        <ul class="sketch-showcase">
+            <li>
+                <figure class="sketch-img">
+                    <img src="img/sketch/sketch-5.jpg" alt="sketch-5">
+                </figure>
+            </li>
+            <li>
+                <figure class="sketch-img">
+                    <img src="img/sketch/sketch-6.jpg" alt="sketch-6">
+                </figure>
+            </li>
+            <li>
+                <figure class="sketch-img">
+                    <img src="img/sketch/sketch-7.jpg" alt="sketch-7">
+                </figure>
+            </li>
+            <li>
+                <figure class="sketch-img">
+                    <img src="img/sketch/sketch-8.jpg" alt="sketch-8">
                 </figure>
             </li>
         </ul>
@@ -146,16 +198,14 @@
 
     </section>
 
+
     <!-- contact form -->
-    <section class="contact">
 
 
-    </section>
-
-    <section class="footer">
-        <div class="section-container myfooter">
+    <footer>
+        <section class="section-container">
             <div class="footer-logo">
-                <a href="#"><img src="img/irinalogo.png" alt="logo"></a>
+                <img src="img/irinalogo.png" alt="logo">
             </div>
 
             <ul class="social-link">
@@ -163,8 +213,11 @@
                 <li><a href="#"><i class="fab fa-behance"></i></a></li>
                 <li><a href="#"><i class="fab fa-instagram"></i></a></li>
             </ul>
-        </div>
-    </section>
+        </section>
+    </footer>
+
+
+
 </body>
 
 </html>
