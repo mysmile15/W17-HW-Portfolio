@@ -23,16 +23,34 @@
   .main-nav {
     display: none;
   }
+
+  .sketch-showcase li {
+    width: 33.33%;
+  }
+
+  #sketch-9 {
+    display: block;
+  }
 }
 
 /***********************
 *Tables: 481px-767px*
 ************************/
 @media only screen and (max-width: 767px) {
+  .sketch-showcase li {
+    width: 50%;
+  }
+
+  #sketch-9 {
+    display: none;
+  }
 }
 
 /***********************
 *small phone: 0-480px*
 ************************/
 @media only screen and (max-width: 480px) {
+  .sketch-showcase li {
+    width: 100%;
+  }
 }
