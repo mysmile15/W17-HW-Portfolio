@@ -40,8 +40,13 @@ font-family: 'Patua One', cursive;
   text-align: center;
   font-family: 'Patua One', sans-serif;
   padding-bottom: 5px;
-  border-bottom: 3px solid #f1b945;
-  margin: auto 440px 50px 440px;
+  margin: 0px 0px 0px 0px;
+}
+
+.more-projects {
+  text-align: center;
+  color: #00b99a;
+  font-weight: 400;
 }
 
 h1 {
@@ -51,7 +56,8 @@ h1 {
 
 p {
   font-family: 'Lato', sans-serif;
-  font-size: 18px;
+  font-size: 100%;
+  text-align: left;
 }
 
 /***********************
@@ -66,12 +72,7 @@ p {
 ************************/
 
 header {
-  background-image: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-    ),
-    url(../img/header-1.jpg);
+  background-image: url(../img/header-2.jpg);
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -94,7 +95,7 @@ header p {
 *NAVIGATION
 ************************/
 .logo {
-  height: 100px;
+  height: 80px;
   width: auto;
   float: left;
   margin-top: 25px;
@@ -157,6 +158,43 @@ header p {
   margin-top: 60px;
 }
 
+.uiux {
+  margin: 100px auto;
+}
+
+.uiux p {
+  margin: 8px 0 0 0;
+  font-size: 100%;
+}
+
+.date {
+  color: #7e7e7e;
+  margin: 0px;
+  font-size: 90%;
+}
+
+.card-bottom {
+  margin-bottom: 30px;
+}
+
+.uiux-img {
+  background-color: #000;
+  overflow: hidden;
+  width: 100%;
+}
+
+.uiux-img img {
+  opacity: 1;
+  width: 100%;
+  height: auto;
+  transform: scale(1);
+  transition: all 0.5s ease;
+}
+
+.uiux-img img:hover {
+  opacity: 0.8;
+  transform: scale(1.15);
+}
 /***********************
 *SKETCH
 ************************/
