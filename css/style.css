@@ -43,10 +43,29 @@ font-family: 'Patua One', cursive;
   margin: 0px 0px 0px 0px;
 }
 
+.title-3 {
+  color: #005b97;
+  font-size: 400%;
+  text-align: left;
+  font-family: 'Patua One', sans-serif;
+}
+
+.title-4 {
+  color: #005c99;
+  font-size: 120%;
+  font-family: 'Patua One', sans-serif;
+}
+
 .more-projects {
   text-align: center;
   color: #00b99a;
   font-weight: 400;
+}
+
+.small-title {
+  color: #00b99a;
+  font-size: 80%;
+  font-family: 'Patua One', sans-serif;
 }
 
 h1 {
@@ -152,7 +171,7 @@ header p {
 }
 
 /***********************
-*PROJECTS
+* UI/UX PROJECTS
 ************************/
 .projects {
   margin-top: 60px;
@@ -195,6 +214,18 @@ header p {
   opacity: 0.8;
   transform: scale(1.15);
 }
+
+/***********************
+*PRINT
+************************/
+.print {
+  background: url(../img/print.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+}
+
 /***********************
 *SKETCH
 ************************/
@@ -240,6 +271,23 @@ header p {
 }
 
 /***********************
+*ABOUT ME
+************************/
+
+.about-space {
+  margin-bottom: 70px;
+  clear: both;
+  display: block;
+  height: 30px;
+}
+
+.about-photo {
+  width: 80%;
+  margin: 0 auto;
+  padding-left: 50px;
+}
+
+/***********************
 *FOOTER
 ************************/
 footer {
@@ -247,6 +295,7 @@ footer {
   background-color: #333;
   height: 300px;
   padding: 30px 0px;
+  margin-top: 100px;
 }
 
 .footer-logo {
