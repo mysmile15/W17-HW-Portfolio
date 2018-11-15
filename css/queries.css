@@ -1,7 +1,24 @@
 /*************************************************
 *Big tablet to 1200px (widths small than the 1140px row*
 ***************************************************/
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1500px) {
+  .section-container {
+    max-width: 80%;
+  }
+  .uiux-space {
+    width: 100%;
+    float: left;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .section-container {
+    max-width: 100%;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+
   .hero-text-box {
     width: 100%;
     padding: 0 4%;
@@ -14,12 +31,25 @@
   .logo {
     margin-left: 20px;
   }
+
+  .uiux {
+    background-size: 800px;
+    background-position: 100% 0%;
+  }
+
+  .uiux-space {
+    margin-bottom: 30px;
+  }
 }
 
 /*************************************************
 *small tablet to big tablet: from 768px to 1023px*
 ***************************************************/
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1200px) {
+  .print {
+    float: left;
+  }
+
   .main-nav {
     display: none;
   }
@@ -31,18 +61,95 @@
   #sketch-9 {
     display: block;
   }
+
+  .uiux {
+    background-size: 650px;
+    background-position: 100% 0%;
+  }
+
+  .sketch {
+    float: left;
+  }
+
+  .row-space {
+    float: left;
+    display: block;
+  }
+
+  .about-space {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .section-container {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  .print {
+    float: left;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .sketch-showcase li {
+    width: 33.33%;
+  }
+
+  #sketch-9 {
+    display: block;
+  }
+
+  .uiux {
+    background-size: 650px;
+    background-position: 100% 0%;
+  }
+
+  .sketch {
+    float: left;
+  }
+
+  .row-space {
+    float: left;
+    display: block;
+  }
 }
 
 /***********************
 *Tables: 481px-767px*
 ************************/
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 991px) {
   .sketch-showcase li {
     width: 50%;
   }
 
+  #print-3 {
+    display: none;
+  }
+
   #sketch-9 {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .uiux {
+    background-size: 500px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .uiux {
+    background-size: 600px;
+    background-position: 100% 30%;
+  }
+  .uiux-space {
+    margin-top: 230px;
+  }
+  .print {
+    height: 1350px;
   }
 }
 
@@ -52,5 +159,9 @@
 @media only screen and (max-width: 480px) {
   .sketch-showcase li {
     width: 100%;
+  }
+
+  .uiux {
+    background-position: 50% 30%;
   }
 }
