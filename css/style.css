@@ -263,8 +263,11 @@ header p {
 
 .uiux {
     margin: 20px auto;
-    background: url(../img/uiux-bg.png) no-repeat;
     min-height: 800px;
+}
+
+.uiux-phone {
+    background: url(../img/uiux-bg.png) no-repeat;
     background-size: 900px;
     background-position: 88% 0%;
 }
@@ -342,10 +345,10 @@ header p {
 ************************/
 
 .print {
-    background: url(../img/print.png);
+    background: url(../img/print.png) no-repeat;
     min-height: 900px;
-    background-size: cover;
-    background-position: center;
+    background-size: 100vw;
+    background-position: bottom;
     margin-top: 30px;
     display: block;
 }
@@ -434,7 +437,7 @@ header p {
 }
 
 .sketch {
-    margin: 70px 0;
+    margin: 30px 0;
     display: block;
     clear: both;
 }
