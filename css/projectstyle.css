@@ -77,7 +77,7 @@ font-family: 'Raleway', sans-serif;
 
 
 /***********************
-*project details
+*project list
 ************************/
 
 .section-container {
@@ -120,4 +120,13 @@ font-family: 'Raleway', sans-serif;
     transform: translateX(-2px);
     transform: translateY(-2px);
     cursor: pointer;
+}
+
+
+/***********************
+*project details
+************************/
+
+.project-details {
+    margin-top: 15px;
 }
