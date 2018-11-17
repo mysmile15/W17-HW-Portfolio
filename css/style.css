@@ -27,7 +27,7 @@ font-family: 'Raleway', sans-serif;
 
 .title {
   color: #ffffff;
-  font-size: 350%;
+  font-size: 750%;
   font-family: 'Raleway', sans-serif;
   display: block;
   letter-spacing: 1px;
@@ -163,10 +163,15 @@ header {
 
 .hero-text-box {
   position: absolute;
-  width: 1140px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hero-text-box p {
+  padding-left: 0px;
+  font-size: 130%;
 }
 
 header p {
@@ -250,7 +255,7 @@ header p {
 .uiux {
   margin: 20px auto;
   background: url(../img/uiux-bg.png) no-repeat;
-  height: 100vh;
+  min-height: 800px;
   background-size: 900px;
   background-position: 88% 0%;
 }

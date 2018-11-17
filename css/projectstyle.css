@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.section-container {
+  max-width: 60%;
+  margin: 0px auto;
+  display: block;
+}
+
+/***********************
+*NAVIGATION
+************************/
+.navigation {
+  background: #fff;
+  box-shadow: 0px 3px 3px #dddddd;
+  height: 99px;
+  padding-bottom: 20px;
+}
+
+.logo {
+  height: 70px;
+  width: auto;
+  float: left;
+  margin-top: 25px;
+}
+
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 70px;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-right: 20px;
+  color: #3f3f3f;
+  font-family: 'Raleway', sans-serif;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding-bottom: 6px;
+  color: #3f3f3f;
+  font-family: 'Raleway', sans-serif;
+
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  padding-bottom: 6px;
+  border-bottom: 2px solid #f1b945;
+}

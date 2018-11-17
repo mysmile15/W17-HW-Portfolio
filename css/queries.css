@@ -19,9 +19,17 @@
     margin-left: 100px;
   }
 
-  .hero-text-box {
+  /* .hero-text-box {
     width: 100%;
     padding: 0 4%;
+  } */
+
+  .title {
+    font-size: 600%;
+  }
+
+  .hero-text-box p {
+    font-size: 100%;
   }
 
   .main-nav {
@@ -86,6 +94,15 @@
     margin-right: 50px;
     margin-left: 50px;
   }
+
+  .title {
+    font-size: 500%;
+  }
+
+  .hero-text-box p {
+    font-size: 80%;
+  }
+
   .print {
     float: left;
   }
@@ -137,6 +154,10 @@
 @media only screen and (max-width: 850px) {
   .uiux {
     background-size: 500px;
+  }
+
+  .title {
+    font-size: 400%;
   }
 }
 
