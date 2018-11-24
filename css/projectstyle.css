@@ -81,6 +81,7 @@ font-family: 'Raleway', sans-serif;
   max-width: 70%;
   margin: 0px auto;
   display: block;
+  padding: 0 10px;
 }
 
 .project {
@@ -125,4 +126,59 @@ font-family: 'Raleway', sans-serif;
 
 .project-details {
   margin-top: 15px;
+}
+
+/***********************
+*FOOTER
+************************/
+
+footer {
+  clear: both;
+  background-color: #333;
+  height: 350px;
+  padding: 30px 0px;
+  margin-top: 100px;
+}
+
+.footer-logo {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  font-size: 200%;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-logo a {
+  color: #fff;
+}
+
+.footer-logo a:hover {
+  color: #fff;
+}
+
+.social-link {
+  list-style: none;
+  width: 199px;
+  margin: 25px auto;
+}
+
+.social-link li {
+  display: inline-block;
+  margin: 0 10px;
+  color: #f1b945;
+}
+
+.social-link li a:link,
+.social-link li a:visited {
+  font-size: 150%;
+  display: inline-block;
+  padding: 0 10px;
+  color: #00b99a;
+  transition: color 0.5s;
+}
+
+.social-link li a:hover,
+.social-link li a:active {
+  color: #0069d9;
 }
