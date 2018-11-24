@@ -159,7 +159,7 @@ footer {
 
 .social-link {
   list-style: none;
-  width: 199px;
+  width: 270px;
   margin: 25px auto;
 }
 
@@ -180,5 +180,5 @@ footer {
 
 .social-link li a:hover,
 .social-link li a:active {
-  color: #0069d9;
+  color: #f1b945;
 }
