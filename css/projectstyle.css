@@ -128,6 +128,126 @@ font-family: 'Raleway', sans-serif;
   margin-top: 15px;
 }
 
+.more-projects-title {
+  font-size: 120%;
+  color: #00b99a;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 15px;
+}
+
+.project-subtitle {
+  margin-top: 150px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 120%;
+  color: #00b99a;
+}
+
+.project-subtitle-1 {
+  margin-top: 80px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 120%;
+  color: #00b99a;
+}
+
+.project-subtitle-2 {
+  margin-top: 10px;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  color: #005b97;
+}
+
+.project-content {
+  position: relative;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  width: 80%;
+  margin: 30px auto;
+}
+
+.com-res {
+  width: 100%;
+  margin: 5px auto;
+  box-shadow: 2px 2px 2px rgba(51, 51, 51, 0.185);
+  border: 1px solid rgba(51, 51, 51, 0.185);
+}
+
+.card-bottom {
+  margin-bottom: 30px;
+}
+
+.row-space {
+  margin: 30px auto;
+  display: block;
+}
+
+.uiux p {
+  margin: 8px 0 0 0;
+  font-size: 100%;
+}
+
+.uiux-title {
+  opacity: 0;
+  position: absolute;
+  top: 65%;
+  left: 7%;
+  font-size: 160%;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  z-index: 1000;
+}
+
+.uiux-title p {
+  color: #fff;
+  margin-top: 5px;
+}
+
+.uiux-img {
+  background-color: #000;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 90%;
+  position: relative;
+}
+
+.uiux-img p {
+  font-size: 60%;
+  color: #fff;
+  margin-top: 0px;
+  font-weight: 400px;
+}
+
+.uiux-img img {
+  width: 100%;
+  height: auto;
+  transform: scale(1.2);
+  transition: all 0.5s ease;
+  opacity: 1;
+}
+
+.uiux-img:hover > img {
+  transform: scale(1);
+  opacity: 0.5;
+}
+
+.uiux-img:hover > .uiux-title {
+  animation: uiux-show 0.5s linear;
+  opacity: 1;
+}
+
+@keyframes uiux-show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 /***********************
 *FOOTER
 ************************/
