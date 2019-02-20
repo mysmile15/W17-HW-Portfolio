@@ -7,12 +7,18 @@
 html {
   background-color: #fff;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
+}
+
+.section-container-menu {
+  max-width: 60%;
+  margin: 0px auto;
+  display: block;
 }
 
 .section-container {
-  max-width: 60%;
-  margin: 0px auto;
+  max-width: 70%;
+  margin: 100px auto;
   display: block;
 }
 
@@ -48,27 +54,18 @@ font-family: 'Raleway', sans-serif;
   padding-top: 50px;
 }
 
-.title-2-left {
-  color: #005b97;
-  font-size: 400%;
-  text-align: left;
-  font-family: 'Raleway', sans-serif;
-  padding-right: 30px;
-  padding-top: 50px;
-}
 
 .title-2-center {
   color: #005b97;
-  font-size: 400%;
+  font-size: 350%;
   text-align: center;
   font-family: 'Raleway', sans-serif;
-  padding-right: 30px;
   padding-top: 50px;
 }
 
 .title-3 {
   color: #005b97;
-  font-size: 400%;
+  font-size: 200%;
   text-align: left;
   font-family: 'Raleway', sans-serif;
 }
@@ -130,11 +127,7 @@ font-family: 'Raleway', sans-serif;
   text-decoration: none;
 }
 
-.small-title {
-  color: #00b99a;
-  font-size: 80%;
-  font-family: 'Raleway', sans-serif;
-}
+
 
 h1 {
   color: #ffffff;
@@ -159,7 +152,7 @@ p {
 ************************/
 
 header {
-  background-image: url(../img/header-2.jpg);
+  background-image: url(../img/header-3.jpg);
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -170,7 +163,7 @@ header {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-45%, -50%);
   font-family: 'Raleway', sans-serif;
 }
 
@@ -188,6 +181,7 @@ header p {
 ************************/
 
 .glitch {
+  display: inline-block;
   color: white;
   font-size: 100px;
   position: relative;
@@ -358,10 +352,11 @@ header p {
 ************************/
 
 .logo {
-  height: 80px;
+  height: 90px;
   width: auto;
   float: left;
-  margin-top: 25px;
+  margin-top: 45px;
+  opacity:0.9;
 }
 
 .main-nav {
@@ -392,6 +387,135 @@ header p {
 }
 
 /***********************
+*social media list
+************************/
+.social-media-list{
+  color:white;
+  display: block;
+  font-size:120%;   
+  text-align: center;
+  margin-top:20px;
+}
+
+.social-media-list i{
+  padding:10px 15px;
+}
+
+.social-media-list a{
+  color:white;
+}
+
+.social-media-list a:hover{
+  color:#f1b945;
+}
+
+
+
+/***********************
+*SVG mouse
+************************/
+
+
+.mouse-down{
+  position: relative;
+  top: 50%;
+  left: 45%;
+  padding:0px;
+  color:white;
+}
+
+
+
+svg{
+  position:absolute;
+  margin-left:auto;
+  margin-top:190px;
+  margin-right:auto;
+  animation: boat 5s ease infinite;
+}
+
+
+@keyframes boat{
+  0%{
+    transform: translateY(6px);
+  }
+  50%{
+    transform: translateY(-6px);
+  }
+  100%{
+    transform: translateY(6px);
+  }
+
+}
+
+.mouse-chevron-down{
+  position: absolute;
+  margin-top:10px;
+  color:white;
+  font-size:110%;
+}
+
+.cls-1{
+  stroke:#4195af;
+  stroke-width:5px;
+  opacity: 10;
+}
+
+.line-1{
+  animation:wave 3s infinite;
+  stroke-dasharray:40px;
+  stroke-dashoffset: -40px;
+}
+
+.line-2{
+  animation:wave 3s 0.5s infinite;
+  stroke-dasharray:30px;
+  stroke-dashoffset: -30px;
+}
+
+.line-3{
+  animation:wave 3s 0.2s infinite;
+  stroke-dasharray:60px;
+  stroke-dashoffset: -30px;
+}
+
+@keyframes wave{
+  from{
+    transform: translateY(10px);
+    opacity: 1;
+    stroke-dashoffset:-20px;
+  }
+  to{
+    opacity: 0;
+    stroke-dashoffset: 20px;
+  }
+}
+
+              
+.cls-1,.cls-4{
+  stroke-linecap:round;
+  stroke-miterlimit:10;
+}
+
+.cls-2{
+  fill:#f58d7e;
+}
+
+.cls-3{
+  fill:#c26b59;
+}
+
+.cls-4{
+  fill:none;
+  stroke:#fff;
+  stroke-width:3px;
+}
+
+.cls-5{
+  fill:#fff;
+}
+
+/***********************
 *BUTTON
 ************************/
 
@@ -419,31 +543,21 @@ header p {
 * UI/UX PROJECTS
 ************************/
 
-.row-space {
-  margin: 20px auto;
-  display: block;
-}
-
-.uiux-space {
-  margin-top: 150px;
-  width: 85%;
-  margin-bottom: 20px;
-}
 
 .uiux {
   margin: 20px auto;
   min-height: 800px;
 }
 
+/* 
 .uiux-phone {
   background: url(../img/uiux-bg.png) no-repeat;
-  background-size: 900px;
-  background-position: 88% 0%;
-}
+  background-size: 600px;
+  background-position: 90% 0%;
+} */
 
-.uiux p {
-  margin: 8px 0 0 0;
-  font-size: 100%;
+.uiux-space {
+  margin: 50px auto 20px auto;
 }
 
 .card-bottom {
@@ -453,9 +567,9 @@ header p {
 .uiux-title {
   opacity: 0;
   position: absolute;
-  top: 65%;
-  left: 7%;
-  font-size: 160%;
+  top: 35%;
+  left: 10%;
+  font-size: 330%;
   color: #fff;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
@@ -465,12 +579,14 @@ header p {
 .uiux-title p {
   color: #fff;
   margin-top: 5px;
+  font-weight: 400;
 }
 
 .uiux-img {
   background-color: #000;
   overflow: hidden;
   width: 100%;
+  height: 350px;
   position: relative;
 }
 
@@ -511,6 +627,11 @@ header p {
 /***********************
 *PRINT
 ************************/
+
+.print-space{
+  margin-top:80px;
+}
+
 
 .print {
   background: url(../img/print.png) no-repeat;
@@ -652,11 +773,47 @@ header p {
   height: 30px;
 }
 
+.about-row{
+  margin-top:50px;
+}
+
 .about-photo {
   width: 80%;
   margin: 0 auto;
   padding-left: 50px;
 }
+
+.nickname{
+  font-size:110%;
+  color:#00b99a;
+  font-weight: 700;
+}
+
+.iconcolor{
+  font-size: 110%;
+  color:#00b99a;
+}
+
+.about-social-media-list{
+  color:#00b99a;
+  display: block;
+  font-size:150%;   
+  margin-top:20px;
+  padding-left:120px;
+}
+
+.about-social-media-list i{
+  padding:10px 15px;
+}
+
+.about-social-media-list a{
+  color:#0069d9;
+}
+
+.about-social-media-list a:hover{
+  color:#00b99a;
+}
+
 
 /***********************
 *FOOTER
@@ -685,6 +842,10 @@ footer {
 
 .footer-logo a:hover {
   color: #fff;
+}
+
+.footer-logo-size{
+  width:150px;
 }
 
 .social-link {
